@@ -47,5 +47,11 @@ public class Clase1Test {
         assertEquals(9, result);
 
     }
+    @Test
+    public void testsumaII(){
+         Clase1 instance = new Clase1();
+        int result = instance.suma(-10, -15);
+        assertEquals(25, result);
+    }
     
 }
